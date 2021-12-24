@@ -63,13 +63,12 @@ p {
 }
 
 /* set the banner image and the style for the banner */
-.hero {
+.hero{
     height: 800px;
     width: 100%;
+    object-fit: cover;
+    overflow: hidden;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 /* set the imgae to float left. 
